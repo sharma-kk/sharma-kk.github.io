@@ -7,7 +7,7 @@ first_name: Kamal
 middle_name: 
 last_name: Sharma
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me via email at <a href="mailto:{{ kamalkishorsharma123@gmail.com }}">{{ kamalkishorsharma123@gmail.com }}</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
