@@ -34,9 +34,12 @@ Stochastic terms (shown in violet) which model the small-scales can be estimated
 
 #### 1. An idealized deterministic atmosphere model
 
-<img src="/assets/img/atmo_dom.pdf" alt="Schematic representation of the 2D domain (right) on which the atmosphere model is simulated" width="600"/>
+<img src="/assets/img/atmo_dom.png" alt="Schematic representation of the 2D domain for the atmosphere model" width="600"/>
+
+*Figure 1: Schematic representation of the 2D domain on which the atmosphere model is simulated.*
 
 **Model equations:**
+
 $$
 \begin{align*}\label{eq: final det atm model}
         &\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u}\cdot \nabla)\mathbf{u} + \frac{\hat{\mathbf{z}} \times \mathbf{u}}{Ro} + \frac{\nabla \theta}{C} = \nu_e \Delta \mathbf{u}, \\
@@ -48,10 +51,56 @@ $$
 
 **Simulation results:**
 <video width="600" controls title="Evolution of vorticity in the high-resolution deterministic atmosphere model">
-  <source src="/assets/videos/high_res_vort_t27_to_t45.mp4" type="video/mp4">
+  <source src="/assets/video/high_res_vort_t27_to_t45.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-*Figure: Evolution of vorticity in the high-resolution deterministic atmosphere model.*
+*Video 1: Evolution of vorticity in the high-resolution deterministic atmosphere model.*
+
+#### 2. Deterministic climate model equations
+
+<img src="/assets/img/clim_mod_dom.png" alt="Schematic representation of the 2D domain for the climate model" width="600"/>
+
+*Figure 1: Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.*
+
+**Model equations:**
+
+$$
+\begin{align*}
+       \text{Atmosphere}: \ &\frac{\partial \mathbf{u}^a}{\partial t} + (\mathbf{u}^a\cdot \nabla)\mathbf{u}^a + \frac{1}{Ro^a} \hat{\mathbf{z}} \times \mathbf{u}^a + \frac{1}{C^a} \nabla \theta^a = {\nu}^a \Delta \mathbf{u}^a, \\
+        &\frac{\partial \theta^a}{\partial t} + \nabla \cdot (\mathbf{u}^a \theta^a) = \gamma(\theta^a - \theta^o) + \eta^a \Delta \theta^a,\\
+    \text{Ocean}: \ &\frac{\partial \mathbf{u}^o}{\partial t} + (\mathbf{u}^o\cdot \nabla)\mathbf{u}^o + \frac{1}{Ro^o} \hat{\mathbf{z}} \times \mathbf{u}^o + \frac{1}{Ro^o} \nabla p^o = \sigma(\mathbf{u}^o - \mathbf{u}_{sol}^a) + \nu^o \Delta \mathbf{u}^o,\\
+    & \nabla \cdot \mathbf{u}^o = 0,\\
+    &\frac{\partial \theta^o}{\partial t} + \mathbf{u}^o \cdot \nabla \theta^o = \eta^o \Delta \theta^o.
+\end{align*}
+$$
+
+**Model description:** We solved the climate model equations on a rectangular domain with periodic boundary conditions in the $x$ direction and free-slip velocity conditions on the boundaries in the $y$ direction. The physical dimensions of the domain are $27237$ km (in $x$) and $3891$ km (in $y$), which, after non-dimensionalization, correspond to $\Omega = [0,7] \times [0,1]$. 
+
+*Table 1: Grid parameters for the atmosphere and ocean components of the climate model*
+
+| Parameters      | Grid           | 
+| :-------------: |:-------------:| 
+| Number of elements, $N_x \times N_y $ |$896 \times 128$ |
+| Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
+| Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
+| Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
+| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
+
+**Simulation results:**
+
+<img src="/assets/img/clim_at_t0.png" alt="Initial state of the climate model" width="600"/>
+
+*Figure 2: Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.*
+
+<img src="/assets/img/clim_at_t25.png" alt="State of the climate model at t=25" width="600"/>
+
+*Figure 2: Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.*
+
+<video width="600" controls title="Evolution of vorticity in the high-resolution deterministic climate model">
+  <source src="/assets/video//atm_vort_coup_model_t25_to_t45.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+*Video 2: Evolution of atmosphere vorticity field from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.*
 
 
 
