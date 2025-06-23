@@ -34,7 +34,7 @@ Stochastic terms (shown in violet) which model the small-scales can be estimated
 
 #### 1. An idealized deterministic atmosphere model
 
-<img src="/assets/img/atmo_dom.pdf" alt="Schematic representation of the 2D domain (right) on which the atmosphere model is simulated" width="500"/>
+<img src="/assets/img/atmo_dom.pdf" alt="Schematic representation of the 2D domain (right) on which the atmosphere model is simulated" width="600"/>
 
 **Model equations:**
 $$
