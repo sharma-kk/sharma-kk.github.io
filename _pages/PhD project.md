@@ -17,10 +17,10 @@ The `stochastic climate model equations` are:
 
 $$
 \begin{align*}
-    \text{Atm.}:\quad & \mathrm{d} \mathbf{u}^a + ((\mathbf{u}^a \mathrm{d} t + {\sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i})\cdot \nabla) \mathbf{u}^a + \frac{1}{Ro^a} \hat{\mathbf{z}} \times (\mathbf{u}^a\, \mathrm{d}t + {\sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i}) \\
-    & + {\sum_i \left( \sum_{j=1}^2 u_j^a \nabla \xi_{i,j} + \frac{1}{Ro^a}\nabla(\boldsymbol{\xi}_i \cdot \mathbf{R}) \right) \circ \mathrm{d} W^i} \\
+    \text{Atm.}:\quad & \mathrm{d} \mathbf{u}^a + ((\mathbf{u}^a \mathrm{d} t + \sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i)\cdot \nabla) \mathbf{u}^a + \frac{1}{Ro^a} \hat{\mathbf{z}} \times (\mathbf{u}^a\, \mathrm{d}t + \sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i) \\
+    & + \sum_i \left( \sum_{j=1}^2 u_j^a \nabla \xi_{i,j} + \frac{1}{Ro^a}\nabla(\boldsymbol{\xi}_i \cdot \mathbf{R}) \right) \circ \mathrm{d} W^i \\
     &= \left( -\frac{1}{C^a} \nabla \theta + \frac{1}{Re^a} \Delta \mathbf{u}^a \right) \mathrm{d}t, \\
-    \mathrm{d} \theta^a + \nabla\cdot\left(\theta^a (\mathbf{u}^a\, \mathrm{d}t + {\sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i})\right) &= \left(\gamma(\theta^a - \theta^o) + \frac{1}{Pe^a} \Delta \theta^a \right)\mathrm{d}t, \\
+    \mathrm{d} \theta^a + \nabla\cdot\left(\theta^a (\mathbf{u}^a\, \mathrm{d}t + \sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i)\right) &= \left(\gamma(\theta^a - \theta^o) + \frac{1}{Pe^a} \Delta \theta^a \right)\mathrm{d}t, \\
     \text{Ocean}:\quad \frac{\partial \mathbf{u}^o}{\partial t} + (\mathbf{u}^o \cdot \nabla)\mathbf{u}^o + \frac{1}{Ro^o} \hat{\mathbf{z}} \times \mathbf{u}^o + \frac{1}{Ro^o} \nabla p^a &= \sigma(\mathbf{u}^o - \mathbb{E}\mathbf{u}_{\text{sol}}^a) + \frac{1}{Re^o} \Delta \mathbf{u}^o, \\
     \nabla \cdot \mathbf{u}^o &= 0, \\
     \frac{\partial \theta^o}{\partial t} + \mathbf{u}^o \cdot \nabla \theta^o &= \frac{1}{Pe^o} \Delta \theta^o.
