@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Hamburg, Germany</p>
+    <p>I like solving mathematical equations using computational methods!</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-With a background in `aerospace engineering` and a PhD in `applied mathematics`, I have spent the last few years solving complex simulation problems, from modeling geophysical flows to evaluating structural loads on rockets and spacecrafts.
+With a background in `aerospace engineering` and a PhD in `applied mathematics`, I have spent the last eight years solving complex simulation problems, from modeling geophysical flows to evaluating structural loads on rockets and spacecrafts.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
