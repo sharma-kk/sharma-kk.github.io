@@ -2,7 +2,7 @@
 layout: page
 permalink: /phd-project/
 title: PhD project
-description: A brief look the work I did during my PhD.
+description: A brief look at the work I did during my PhD.
 nav: true
 nav_order: 2
 ---
@@ -16,13 +16,20 @@ Our results demonstrate that ensemble forecasts from the stochastic climate mode
 The `stochastic climate model equations` are:
 
 $$
-\begin{aligned}
-    \text{Atm.}:\quad & \mathrm{d} \mathbf{u}^a + ((\mathbf{u}^a\, \mathrm{d}t + \sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i) \cdot \nabla) \mathbf{u}^a + \frac{1}{Ro^a} \hat{\mathbf{z}} \times (\mathbf{u}^a\, \mathrm{d}t + \sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i) \\
-    & + \sum_i \left( \sum_{j=1}^2 u_j^a \nabla \xi_{i,j} + \frac{1}{Ro^a}\nabla(\boldsymbol{\xi}_i \cdot \mathbf{R}) \right) \circ \mathrm{d} W^i \\
+\begin{align*}
+    \text{Atm.}:\quad & \mathrm{d} \mathbf{u}^a + ((\mathbf{u}^a \mathrm{d} t + \color{red}{\sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i})\cdot \nabla) \mathbf{u}^a + \frac{1}{Ro^a} \hat{\mathbf{z}} \times (\mathbf{u}^a\, \mathrm{d}t + \color{red}{\sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i}) \\
+    & + \color{red}{\sum_i \left( \sum_{j=1}^2 u_j^a \nabla \xi_{i,j} + \frac{1}{Ro^a}\nabla(\boldsymbol{\xi}_i \cdot \mathbf{R}) \right) \circ \mathrm{d} W^i} \\
     &= \left( -\frac{1}{C^a} \nabla \theta + \frac{1}{Re^a} \Delta \mathbf{u}^a \right) \mathrm{d}t, \\
-    \mathrm{d} \theta^a + \nabla\cdot\left(\theta^a (\mathbf{u}^a\, \mathrm{d}t + \sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i)\right) &= \left(\gamma(\theta^a - \theta^o) + \frac{1}{Pe^a} \Delta \theta^a \right)\mathrm{d}t, \\
+    \mathrm{d} \theta^a + \nabla\cdot\left(\theta^a (\mathbf{u}^a\, \mathrm{d}t + \color{red}{\sum_i \boldsymbol{\xi}_i \circ \mathrm{d} W^i})\right) &= \left(\gamma(\theta^a - \theta^o) + \frac{1}{Pe^a} \Delta \theta^a \right)\mathrm{d}t, \\
     \text{Ocean}:\quad \frac{\partial \mathbf{u}^o}{\partial t} + (\mathbf{u}^o \cdot \nabla)\mathbf{u}^o + \frac{1}{Ro^o} \hat{\mathbf{z}} \times \mathbf{u}^o + \frac{1}{Ro^o} \nabla p^a &= \sigma(\mathbf{u}^o - \mathbb{E}\mathbf{u}_{\text{sol}}^a) + \frac{1}{Re^o} \Delta \mathbf{u}^o, \\
     \nabla \cdot \mathbf{u}^o &= 0, \\
     \frac{\partial \theta^o}{\partial t} + \mathbf{u}^o \cdot \nabla \theta^o &= \frac{1}{Pe^o} \Delta \theta^o.
-\end{aligned}
+\end{align*}
 $$
+where the vector variable $\mathbf{u}$ and the scale variables $\theta$ and $p$ (with superscripts for the atmosphere and ocean components) denote the velocity, potential temperature, and pressure fields, respectively. The atmospheric temperature is coupled to the ocean temperature through the term $\gamma (\theta^a - \theta^o)$ representing the transfer of heat from the ocean to the atmosphere. The atmosphere and ocean velocities are coupled through the term $\sigma (\mathbf{u}^o - \mathbf{u}^a_{sol})$ which models the shear stress exerted by atmospheric winds on the ocean surface. 
+
+Stochastic terms (shown in red) which model the small-scales can be estimated using the satellite data. In our work, we estimate the stochastic terms (mainly $\boldsymbol{\xi}_i$) using statistical analysis of velocity data obtained from high-resolution simulation of the deterministic model. 
+
+
+
+
