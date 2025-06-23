@@ -142,15 +142,15 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-# collections:
-#   books:
-#     output: true
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#   projects:
-#     output: true
+collections:
+  books:
+    output: true
+  news:
+    defaults:
+      layout: post
+    output: true
+  projects:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -191,6 +191,16 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _posts/
+  - _news/
+  - _pages/projects.md
+  - _pages/blog.md
+  - _pages/publications.md
+  - _pages/teaching.md 
+  - _pages/repositories.md 
+  - _pages/dropdown.md
+  - _pages/books.md
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -246,14 +256,14 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  # posts:
-  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  #   permalinks:
-  #     year: "/blog/:year/"
-  #     tags: "/blog/:type/:name/"
-  #     categories: "/blog/:type/:name/"
-  # books:
-  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  posts:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
