@@ -56,7 +56,7 @@ $$
   <source src="/assets/video/high_res_vort_t27_to_t45.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-*Video 1: Evolution of vorticity in the high-resolution deterministic atmosphere model.*
+*Video 1: Evolution of vorticity $\omega := \nabla \times \mathbf{u}$ in the high-resolution deterministic atmosphere model.*
 
 
 #### 2. Deterministic climate model equations
@@ -105,7 +105,7 @@ $$
   <source src="/assets/video//atm_vort_coup_model_t25_to_t45.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-*Video 2: Evolution of atmosphere vorticity field from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.*
+*Video 2: Evolution of atmosphere vorticity field $\omega := \nabla \times \mathbf{u}^a$ from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.*
 
 ## Publications and conference contributions
 
@@ -124,11 +124,11 @@ My doctoral studies resulted in the following publications and conference contri
 
 * Conference on Computational Science and Engineering, Society for Industrial and Applied Mathematics (SIAM), Amsterdam, Netherlands, *contributed talk* (2023).
 
-* Firedrake User and Developer Workshop, University of Exeter \& Imperial College London, Totnes, England, *contributed talk* (2023).
+* Firedrake User and Developer Workshop, University of Exeter & Imperial College London, Totnes, England, *contributed talk* (2023).
 
-* Workshop on Modeling, Simulation \& Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk* (2022).
+* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk* (2022).
 
-* Workshop on Modeling, Simulation \& Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk and poster* (2021).
+* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk and poster* (2021).
 
 
 
