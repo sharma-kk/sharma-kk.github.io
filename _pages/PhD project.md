@@ -6,7 +6,7 @@ description: A brief look at the work I did during my PhD.
 nav: true
 pretty_table: true
 related_publications: true
-nav_order: 2
+nav_order: 1
 ---
 
 Processes occurring in the Earth's atmosphere and ocean exhibit a wide range of spatial (a few millimeters to thousand of kilometers) and temporal (a few seconds to several decades) scales {% cite vallisAtmosphericOceanicFluid2017 fox-kemperNotionsMotionsOceans2018 %}. In both media, small-scale motions coexist and interact with large-scale circulation.  Due to limited computational resources, however, it is practically impossible to capture all the scales in numerical simulations. The small scales which are not captured by the numerical models lead to errors in the prediction. Parameterization techniques are generally used to account for the missing effect of small scales on large scales. In our project, we explored the use of a parameterization technique known as `stochastic advection by Lie transport` (SALT).
