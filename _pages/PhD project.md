@@ -4,6 +4,7 @@ permalink: /phd-project/
 title: PhD project
 description: A brief look at the work I did during my PhD.
 nav: true
+pretty_table: true
 nav_order: 2
 ---
 
