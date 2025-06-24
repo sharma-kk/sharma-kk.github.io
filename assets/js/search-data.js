@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/phd-project/";
           },
+        },{id: "nav-work-experience",
+          title: "Work Experience",
+          description: "Details about some of the projects I did at the Indian Space Research organisation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/isro/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
