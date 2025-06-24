@@ -13,9 +13,11 @@ During my time at ISRO, I became fascinated by the capabilities of finite elemen
 
 Here are some of the major projects I contributed to at ISRO:
 
-#### 1. Thermo-structural analysis of a Scramjet engine flow duct
+#### 1. Thermo-structural analysis of a DMRJ engine flow duct
 
-The engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory. 
+The dual model ramjet (DMRJ) engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory. 
+
+I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/atv_config1.png" title="ATV configuration" class="img-fluid rounded z-depth-1" %}
@@ -25,10 +27,17 @@ The engine flow duct experiences a variety of loads (aerodynamics pressure and t
     </div>
 </div>
 <div class="caption">
-    Configuration of the Advanced Technology Vehicle (left) on which the Scramjet engine flow duct is mounted. Figure on the right shows actual photo of ATV during liftoff.
+    Configuration of ISRO's Advanced Technology Vehicle (ATV) on which the DMRJ engine flow duct is mounted. Figure on the right shows an actual photo of the ATV during liftoff. Picture credits: [ISRO](https://www.isro.gov.in/ScramjetEngine.html)
 </div>
-I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware. 
 
+#### 2. Payload adapter design for the PSLV
 
-
-
+I was part of a design team responsible for developing a new payload adapter design for the Polar Satellite Launch Vehicle (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/pla_pslv_c57.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A schematic diagram showing a typical payload accommodation in PSLV. The black structure under the main satellite (shown in yellow) is the standard payload adapter. Picture credits: [ISRO](https://www.isro.gov.in/media_isro/pdf/AdityaL1_Mission_Brochure.pdf)
+</div>
