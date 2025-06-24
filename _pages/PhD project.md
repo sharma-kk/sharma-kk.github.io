@@ -5,6 +5,7 @@ title: PhD project
 description: A brief look at the work I did during my PhD.
 nav: true
 pretty_table: true
+related_publications: true
 nav_order: 2
 ---
 
