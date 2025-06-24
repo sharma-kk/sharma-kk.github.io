@@ -88,6 +88,7 @@ $$
 | Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
 | Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
 
+<br>
 
 `Simulation results:`
 
@@ -105,8 +106,28 @@ $$
 </video>
 *Video 2: Evolution of atmosphere vorticity field from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.*
 
+## Publications and conference contributions
+
+My doctoral studies resulted in the following publications and conference contributions:
+
+### Publications
+
+* Kamal Sharma and Peter Korn. Numerical Simulation of an idealized coupled Ocean-Atmosphere Climate Model. In *Modeling, Simulation and Optimization of Fluid Dynamic Applications*, pages 113–130. Springer, Cham, 2023. DOI: [10.1007/978-3-031-45158-4\_7](https://link.springer.com/chapter/10.1007/978-3-031-45158-4_7)
 
 
+### Conference contributions
+
+* Workshop on Stochastic Transport in Upper Ocean Dynamics, French Research Institute for Exploitation of the Sea (IFREMER), Brest, France, *contributed talk* (2023).
+
+* Conference on Mathematical and Computational Issues in the Geosciences, Society for Industrial and Applied Mathematics (SIAM), Bergen, Norway, *contributed talk* (2023).
+
+* Conference on Computational Science and Engineering, Society for Industrial and Applied Mathematics (SIAM), Amsterdam, Netherlands, *contributed talk* (2023).
+
+* Firedrake User and Developer Workshop, University of Exeter \& Imperial College London, Totnes, England, *contributed talk* (2023).
+
+* Workshop on Modeling, Simulation \& Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk* (2022).
+
+* Workshop on Modeling, Simulation \& Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk and poster* (2021).
 
 
 
