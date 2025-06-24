@@ -82,7 +82,7 @@ $$
 *Table 1: Grid parameters for the atmosphere and ocean components of the climate model*
 
 | Parameters      | Grid           | 
-| :-------------: |:-------------:| 
+| :------------- |:-------------| 
 | Number of elements, $N_x \times N_y $ |$896 \times 128$ |
 | Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
 | Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
