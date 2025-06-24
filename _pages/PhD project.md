@@ -32,11 +32,12 @@ Stochastic terms (shown in green) which model the small-scales can be estimated 
 
 ### Key simulations
 
+
 #### 1. An idealized deterministic atmosphere model
 
-<img src="/assets/img/atmo_dom.png" alt="Schematic representation of the 2D domain for the atmosphere model" width="500"/>
+<img src="/assets/img/atmo_dom.png" alt="Schematic representation of the 2D domain for the atmosphere model" width="600"/>
 
-*Figure 1: Schematic representation of the 2D domain on which the atmosphere model is simulated.*
+*Figure 1: Schematic representation of the 2D domain on which the atmosphere model is simulated. The domain is an approximation of a section in the Earth's northern hemisphere (shown in left).*
 
 `Model equations:`
 
@@ -59,7 +60,7 @@ $$
 
 #### 2. Deterministic climate model equations
 
-<img src="/assets/img/clim_mod_dom.png" alt="Schematic representation of the 2D domain for the climate model" width="500"/>
+<img src="/assets/img/clim_mod_dom.png" alt="Schematic representation of the 2D domain for the climate model" width="600"/>
 
 *Figure 1: Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.*
 
@@ -87,15 +88,14 @@ $$
 | Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
 | Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
 
-<br><br>
 
 `Simulation results:`
 
-<img src="/assets/img/clim_at_t0.png" alt="Initial state of the climate model" width="500"/>
+<img src="/assets/img/clim_at_t0.png" alt="Initial state of the climate model" width="600"/>
 
 *Figure 2: Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.*
 
-<img src="/assets/img/clim_at_t25.png" alt="State of the climate model at t=25" width="500"/>
+<img src="/assets/img/clim_at_t25.png" alt="State of the climate model at t=25" width="600"/>
 
 *Figure 3: Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.*
 
