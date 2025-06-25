@@ -105,12 +105,12 @@ $$
 
 `Model description:` We solved the climate model equations on a rectangular domain with periodic boundary conditions in the $x$ direction and free-slip velocity conditions on the boundaries in the $y$ direction. The physical dimensions of the domain are $27237$ km (in $x$) and $3891$ km (in $y$), which, after non-dimensionalization, correspond to $\Omega = [0,7] \times [0,1]$. 
 
-  | Parameters      | Grid           | 
-| :------------- |:-------------| 
-| Number of elements, $N_x \times N_y $ |$896 \times 128$ |
-| Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
-| Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
-| Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
+| Parameters      | Grid           | 
+| :-------------  |:-------------  | 
+| Number of elements, $N_x \times N_y $ | $896 \times 128$ |
+| Smallest element size, $\Delta x$     | $1/128 \ (\sim 30 \ \text{km})$ | 
+| Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$ |  
+| Eddy viscosity, $\nu^a, \nu^o $ | $1/(8 \times 10^4)$ |
 | Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
 <div class="caption">
     Grid parameters for the atmosphere and ocean components of the climate model
