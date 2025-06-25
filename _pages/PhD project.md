@@ -63,7 +63,7 @@ $$
 `Simulation results:`
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include video.liquid path="assets/video/high_res_vort_t27_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true %}
+        {% include video.liquid path="assets/video/high_res_vort_t27_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -135,7 +135,7 @@ $$
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include video.liquid path="assets/video/atm_vort_coup_model_t25_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true %}
+        {% include video.liquid path="assets/video/atm_vort_coup_model_t25_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
