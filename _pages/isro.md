@@ -42,3 +42,18 @@ I was part of a design team responsible for developing a new payload adapter des
     A schematic diagram showing a typical payload accommodation in PSLV. The black structure under the main satellite (shown in yellow) is the standard payload adapter. 
     Picture credits: <a href="https://www.isro.gov.in/media_isro/pdf/AdityaL1_Mission_Brochure.pdf">ISRO</a>
 </div>
+
+#### 3. Thermal screen development for GSLV
+
+Thermal screen, a flexible and inflatable membrane, is provided over the fore-end dome of liquid hydrogen ($LH_2$) tank of Geosynchronous Satellite Launch Vehicle (GSLV Mk3) to contain, dilute and expel Hydrogen  gas (if any due to leak) to the  atmosphere and hence to protect the electronic components in the equipment bay above the $LH_2$ tank during filling and liftoff.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/cryo_stage.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="300" %}
+    </div>
+</div>
+<div class="caption">
+    The cryogenic upper stage of GSLV Mk3. The thermal screen is placed on top of the $LH_2$ tank of this stage. Picture credits: <a href="https://www.isro.gov.in/mission_GSAT-19_Gallery.html">ISRO</a>
+</div>
+
+I was involved in the design, finite element analysis, and testing of the thermal screen.
