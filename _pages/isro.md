@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /isro/
-title: Work Experience
+title: Work experience
 description: Details about some of the projects I did at the Indian Space Research organisation.
 nav: true
 nav_order: 3
