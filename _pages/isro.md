@@ -49,7 +49,7 @@ Thermal screen, a flexible and inflatable membrane, is provided over the fore-en
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/cryo_stage.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="300" %}
+        {% include figure.liquid loading="eager" path="assets/img/cryo_stage.png" title="Cryogenic stage GSLV Mk3" class="img-fluid rounded z-depth-1" width="300" %}
     </div>
 </div>
 <div class="caption">
@@ -57,3 +57,16 @@ Thermal screen, a flexible and inflatable membrane, is provided over the fore-en
 </div>
 
 I was involved in the design, finite element analysis, and testing of the thermal screen.
+
+#### 4. Structural analysis of reusable launch vehicle's wing 
+
+The wing leading edge of ISRO's reusable launch vehicle (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the structural analysis (using finite element analysis) and testing of the realized wing leading edge hardware. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/rlv.png" title="RLV" class="img-fluid rounded z-depth-1" width="300" %}
+    </div>
+</div>
+<div class="caption">
+    ISRO's reusable launch vehicle at the launch pad. Picture credits: <a href="https://www.isro.gov.in/mission_GSAT-19_Gallery.html">ISRO</a>
+</div>
