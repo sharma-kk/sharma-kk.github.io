@@ -19,10 +19,10 @@ The dual model ramjet (DMRJ) engine flow duct experiences a variety of loads (ae
 
 I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware. 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/atv_config1.png" title="ATV configuration" class="img-fluid rounded z-depth-1" width="300" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/atv_liftoff1.png" title="ATV liftoff" class="img-fluid rounded z-depth-1" width="300" %}
     </div>
 </div>
@@ -34,7 +34,7 @@ I contributed towards the thermo-structural analysis of engine flow duct model a
 
 I was part of a design team responsible for developing a new payload adapter design for the Polar Satellite Launch Vehicle (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle. 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/pla_pslv_c57.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="300" %}
     </div>
 </div>
