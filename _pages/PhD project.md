@@ -39,7 +39,7 @@ Stochastic terms (shown in green) which model the small-scales can be estimated 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/atmo_dom.png" title="Schematic representation of the 2D domain for the atmosphere model" class="img-fluid rounded z-depth-1" width="500" %}
+        {% include figure.liquid loading="eager" path="assets/img/atmo_dom.png" title="Schematic representation of the 2D domain for the atmosphere model" class="img-fluid rounded z-depth-1" width="700" %}
     </div>
 </div>
 <div class="caption">
@@ -63,7 +63,7 @@ $$
 `Simulation results:`
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include video.liquid path="assets/video/high_res_vort_t27_to_t45.mp4" class="img-fluid rounded z-depth-1" width="500" controls=true %}
+        {% include video.liquid path="assets/video/high_res_vort_t27_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true %}
     </div>
 </div>
 <div class="caption">
@@ -80,16 +80,12 @@ $$
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/clim_mod_dom.png" title="Schematic representation of the 2D domain for the climate model" class="img-fluid rounded z-depth-1" width="500" %}
+        {% include figure.liquid loading="eager" path="assets/img/clim_mod_dom.png" title="Schematic representation of the 2D domain for the climate model" class="img-fluid rounded z-depth-1" width="700" %}
     </div>
 </div>
 <div class="caption">
     Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.
 </div>
-
-<!-- <img src="/assets/img/clim_mod_dom.png" alt="Schematic representation of the 2D domain for the climate model" width="600"/>
-
-*Figure 1: Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.* -->
 
 `Model equations:`
 
@@ -116,60 +112,35 @@ $$
 <div class="caption">
     Grid parameters for the atmosphere and ocean components of the climate model
 </div>
-<!-- *Table 1: Grid parameters for the atmosphere and ocean components of the climate model* -->
-
-<!-- | Parameters      | Grid           | 
-| :------------- |:-------------| 
-| Number of elements, $N_x \times N_y $ |$896 \times 128$ |
-| Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
-| Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
-| Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
-| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | -->
-
-<!-- <br> -->
 
 `Simulation results:`
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/clim_at_t0.png" title="Initial state of the climate model" class="img-fluid rounded z-depth-1" width="500" %}
+        {% include figure.liquid loading="eager" path="assets/img/clim_at_t0.png" title="Initial state of the climate model" class="img-fluid rounded z-depth-1" width="700" %}
     </div>
 </div>
 <div class="caption">
     Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.
 </div>
 
-<!-- <img src="/assets/img/clim_at_t0.png" alt="Initial state of the climate model" width="600"/>
-
-*Figure 2: Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.* -->
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/clim_at_t25.png" title="State of the climate model at t=25" class="img-fluid rounded z-depth-1" width="500" %}
+        {% include figure.liquid loading="eager" path="assets/img/clim_at_t25.png" title="State of the climate model at t=25" class="img-fluid rounded z-depth-1" width="700" %}
     </div>
 </div>
 <div class="caption">
      Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.
 </div>
 
-<!-- <img src="/assets/img/clim_at_t25.png" alt="State of the climate model at t=25" width="600"/>
-
-*Figure 3: Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.* -->
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include video.liquid path="assets/video/atm_vort_coup_model_t25_to_t45.mp4" class="img-fluid rounded z-depth-1" width="500" controls=true %}
+        {% include video.liquid path="assets/video/atm_vort_coup_model_t25_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true %}
     </div>
 </div>
 <div class="caption">
     Evolution of atmosphere vorticity field $\omega := \nabla \times \mathbf{u}^a$ from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.
 </div>
-
-<!-- <video width="600" controls title="Evolution of vorticity in the high-resolution deterministic climate model">
-  <source src="/assets/video//atm_vort_coup_model_t25_to_t45.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-*Video 2: Evolution of atmosphere vorticity field $\omega := \nabla \times \mathbf{u}^a$ from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.* -->
 
 ## Publications and conference contributions
 
