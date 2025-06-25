@@ -4,7 +4,7 @@ permalink: /isro/
 title: Work Experience
 description: Details about some of the projects I did at the Indian Space Research organisation.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 After completing my Bachelor's degree in Aerospace Engineering, I joined the Indian Space Research Organisation (ISRO) as a Scientist/Engineer in 2014. Over the course of four years, I worked at two major ISRO centres—Vikram Sarabhai Space Centre and U. R. Rao Satellite Centre—where I was involved in the structural design and analysis of launch vehicle subsystems, as well as the dynamic testing of satellites.
