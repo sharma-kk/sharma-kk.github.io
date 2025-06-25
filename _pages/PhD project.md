@@ -112,6 +112,7 @@ $$
 | Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$ |  
 | Eddy viscosity, $\nu^a, \nu^o $ | $1/(8 \times 10^4)$ |
 | Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
+
 <div class="caption">
     Grid parameters for the atmosphere and ocean components of the climate model
 </div>
@@ -123,7 +124,7 @@ $$
 | Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
 | Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
 | Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
-| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ |  -->
+| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | -->
 
 <!-- <br> -->
 
