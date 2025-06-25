@@ -61,12 +61,20 @@ $$
 `Discretization:` We used the Finite Element Method for spatial discretization and Crank-Nicolson scheme for temporal discretization. The model resolution i.e. the size of the small element size is $\sim 15$ km. The numerical implementation is carried out using Firedrake (an open source Python Finite Element Method package) and the visualization is done using Paraview. 
 
 `Simulation results:`
-<video width="600" controls title="Evolution of vorticity in the high-resolution deterministic atmosphere model">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include video.liquid path="assets/video/high_res_vort_t27_to_t45.mp4" class="img-fluid rounded z-depth-1" width="500" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Evolution of vorticity $\omega := \nabla \times \mathbf{u}$ in the high-resolution deterministic atmosphere model.
+</div>
+
+<!-- <video width="600" controls title="Evolution of vorticity in the high-resolution deterministic atmosphere model">
   <source src="/assets/video/high_res_vort_t27_to_t45.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-*Video 1: Evolution of vorticity $\omega := \nabla \times \mathbf{u}$ in the high-resolution deterministic atmosphere model.*
-
+*Video 1: Evolution of vorticity $\omega := \nabla \times \mathbf{u}$ in the high-resolution deterministic atmosphere model.* -->
 
 #### 2. Deterministic climate model equations
 
