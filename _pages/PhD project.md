@@ -105,17 +105,31 @@ $$
 
 `Model description:` We solved the climate model equations on a rectangular domain with periodic boundary conditions in the $x$ direction and free-slip velocity conditions on the boundaries in the $y$ direction. The physical dimensions of the domain are $27237$ km (in $x$) and $3891$ km (in $y$), which, after non-dimensionalization, correspond to $\Omega = [0,7] \times [0,1]$. 
 
-*Table 1: Grid parameters for the atmosphere and ocean components of the climate model*
 
-| Parameters      | Grid           | 
+<div class="caption">
+    Grid parameters for the atmosphere and ocean components of the climate model
+</div>
+<div class="text-center">
+  | Parameters      | Grid           | 
 | :------------- |:-------------| 
 | Number of elements, $N_x \times N_y $ |$896 \times 128$ |
 | Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
 | Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
 | Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
 | Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
+</div>
 
-<br>
+<!-- *Table 1: Grid parameters for the atmosphere and ocean components of the climate model* -->
+
+<!-- | Parameters      | Grid           | 
+| :------------- |:-------------| 
+| Number of elements, $N_x \times N_y $ |$896 \times 128$ |
+| Smallest element size, $\Delta x$     |$1/128 \ (\sim 30 \ \text{km})$ | 
+| Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$  |  
+| Eddy viscosity, $\nu^a, \nu^o $ |   $1/(8 \times 10^4)$        |
+| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ |  -->
+
+<!-- <br> -->
 
 `Simulation results:`
 
@@ -171,18 +185,14 @@ My doctoral studies resulted in the following publications and conference contri
 
 ### Conference contributions
 
-* Workshop on Stochastic Transport in Upper Ocean Dynamics, French Research Institute for Exploitation of the Sea (IFREMER), Brest, France, *contributed talk* (2023).
+* Workshop on Stochastic Transport in Upper Ocean Dynamics, French Research Institute for Exploitation of the Sea (IFREMER), Brest, France, `contributed talk` (2023).
 
-* Conference on Mathematical and Computational Issues in the Geosciences, Society for Industrial and Applied Mathematics (SIAM), Bergen, Norway, *contributed talk* (2023).
+* Conference on Mathematical and Computational Issues in the Geosciences, Society for Industrial and Applied Mathematics (SIAM), Bergen, Norway, `contributed talk` (2023).
 
-* Conference on Computational Science and Engineering, Society for Industrial and Applied Mathematics (SIAM), Amsterdam, Netherlands, *contributed talk* (2023).
+* Conference on Computational Science and Engineering, Society for Industrial and Applied Mathematics (SIAM), Amsterdam, Netherlands, `contributed talk` (2023).
 
-* Firedrake User and Developer Workshop, University of Exeter & Imperial College London, Totnes, England, *contributed talk* (2023).
+* Firedrake User and Developer Workshop, University of Exeter & Imperial College London, Totnes, England, `contributed talk` (2023).
 
-* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk* (2022).
+* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, `contributed talk` (2022).
 
-* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, *contributed talk and poster* (2021).
-
-
-
-
+* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, `contributed talk and poster` (2021).
