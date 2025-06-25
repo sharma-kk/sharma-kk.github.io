@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/phd-project/";
           },
         },{id: "nav-work-experience",
-          title: "Work Experience",
+          title: "Work experience",
           description: "Details about some of the projects I did at the Indian Space Research organisation.",
           section: "Navigation",
           handler: () => {
