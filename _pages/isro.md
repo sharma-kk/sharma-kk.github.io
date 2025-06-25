@@ -27,7 +27,7 @@ I contributed towards the thermo-structural analysis of engine flow duct model a
     </div>
 </div>
 <div class="caption">
-    Configuration of ISRO's Advanced Technology Vehicle (ATV) on which the DMRJ engine flow duct is mounted. Figure on the right shows an actual photo of the ATV during liftoff. Picture credits: <a href="https://www.isro.gov.in/ScramjetEngine.html">ISRO</a>
+    Configuration of ISRO's Advanced Technology Vehicle (ATV) on which the DMRJ engine flow duct is mounted along with an actual photo of the ATV during liftoff. Picture credits: <a href="https://www.isro.gov.in/ScramjetEngine.html">ISRO</a>
 </div>
 
 #### 2. Payload adapter design for the PSLV
