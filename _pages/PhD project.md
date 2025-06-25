@@ -145,11 +145,20 @@ $$
 
 *Figure 3: Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.* -->
 
-<video width="600" controls title="Evolution of vorticity in the high-resolution deterministic climate model">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include video.liquid path="assets/video/atm_vort_coup_model_t25_to_t45.mp4" class="img-fluid rounded z-depth-1" width="500" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Evolution of atmosphere vorticity field $\omega := \nabla \times \mathbf{u}^a$ from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.
+</div>
+
+<!-- <video width="600" controls title="Evolution of vorticity in the high-resolution deterministic climate model">
   <source src="/assets/video//atm_vort_coup_model_t25_to_t45.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-*Video 2: Evolution of atmosphere vorticity field $\omega := \nabla \times \mathbf{u}^a$ from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.*
+*Video 2: Evolution of atmosphere vorticity field $\omega := \nabla \times \mathbf{u}^a$ from $t = 25$ on wards. The number of small, medium, and large eddies remains roughly constant over the time interval.* -->
 
 ## Publications and conference contributions
 
