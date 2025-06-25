@@ -37,10 +37,18 @@ Stochastic terms (shown in green) which model the small-scales can be estimated 
 
 #### 1. An idealized deterministic atmosphere model
 
-<img src="/assets/img/atmo_dom.png" alt="Schematic representation of the 2D domain for the atmosphere model" width="600"/>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/atmo_dom.png" title="Schematic representation of the 2D domain for the atmosphere model" class="img-fluid rounded z-depth-1" width="500" %}
+    </div>
+</div>
+<div class="caption">
+    Schematic representation of the 2D domain on which the atmosphere model is simulated. The domain is an approximation of a section in the Earth's northern hemisphere (shown in left).
+</div>
 
-*Figure 1: Schematic representation of the 2D domain on which the atmosphere model is simulated. The domain is an approximation of a section in the Earth's northern hemisphere (shown in left).*
+<!-- <img src="/assets/img/atmo_dom.png" alt="Schematic representation of the 2D domain for the atmosphere model" width="600"/>
 
+*Figure 1: Schematic representation of the 2D domain on which the atmosphere model is simulated. The domain is an approximation of a section in the Earth's northern hemisphere (shown in left).* -->
 `Model equations:`
 
 $$
@@ -62,9 +70,18 @@ $$
 
 #### 2. Deterministic climate model equations
 
-<img src="/assets/img/clim_mod_dom.png" alt="Schematic representation of the 2D domain for the climate model" width="600"/>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/clim_mod_dom.png" title="Schematic representation of the 2D domain for the climate model" class="img-fluid rounded z-depth-1" width="500" %}
+    </div>
+</div>
+<div class="caption">
+    Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.
+</div>
 
-*Figure 1: Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.*
+<!-- <img src="/assets/img/clim_mod_dom.png" alt="Schematic representation of the 2D domain for the climate model" width="600"/>
+
+*Figure 1: Schematic representation of the 2D non-dimensionalized domain (right) used for the climate model simulations.* -->
 
 `Model equations:`
 
@@ -94,13 +111,31 @@ $$
 
 `Simulation results:`
 
-<img src="/assets/img/clim_at_t0.png" alt="Initial state of the climate model" width="600"/>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/clim_at_t0.png" title="Initial state of the climate model" class="img-fluid rounded z-depth-1" width="500" %}
+    </div>
+</div>
+<div class="caption">
+    Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.
+</div>
 
-*Figure 2: Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.*
+<!-- <img src="/assets/img/clim_at_t0.png" alt="Initial state of the climate model" width="600"/>
 
-<img src="/assets/img/clim_at_t25.png" alt="State of the climate model at t=25" width="600"/>
+*Figure 2: Initial atmospheric temperature (top), atmospheric velocity (middle), and ocean temperature (bottom) fields at $t=0$. The ocean velocity is set to zero at $t=0$.* -->
 
-*Figure 3: Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.*
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/clim_at_t25.png" title="State of the climate model at t=25" class="img-fluid rounded z-depth-1" width="500" %}
+    </div>
+</div>
+<div class="caption">
+     Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.
+</div>
+
+<!-- <img src="/assets/img/clim_at_t25.png" alt="State of the climate model at t=25" width="600"/>
+
+*Figure 3: Atmospheric (top two) and oceanic (bottom two) velocity and temperature fields at $t = 25$ for the deterministic climate model simulation.* -->
 
 <video width="600" controls title="Evolution of vorticity in the high-resolution deterministic climate model">
   <source src="/assets/video//atm_vort_coup_model_t25_to_t45.mp4" type="video/mp4">
