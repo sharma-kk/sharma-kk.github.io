@@ -7,9 +7,9 @@ nav: true
 nav_order: 3
 ---
 
-After completing my Bachelor's degree in Aerospace Engineering, I joined the Indian Space Research Organisation (ISRO) as a Scientist/Engineer in 2014. Over the course of four years, I worked at two major ISRO centres—Vikram Sarabhai Space Centre and U. R. Rao Satellite Centre—where I was involved in the structural design and analysis of launch vehicle subsystems, as well as the dynamic testing of satellites.
+After completing my Bachelor's degree in Aerospace Engineering, I joined the `Indian Space Research Organisation` (ISRO) as a Scientist/Engineer in 2014. Over the course of four years, I worked at two major ISRO centres—Vikram Sarabhai Space Centre and U. R. Rao Satellite Centre—where I was involved in the structural design and analysis of launch vehicle subsystems, as well as the dynamic testing of satellites.
 
-During my time at ISRO, I became fascinated by the capabilities of finite element analysis software such as ANSYS and Abaqus, which are used for structural analysis. My curiosity to understand the underlying mathematical equations and the software development process led me to pursue a Master's degree in Applied Mathematics.
+During my time at ISRO, I became fascinated by the capabilities of `finite element analysis` software such as ANSYS and Abaqus, which are used for structural analysis. My curiosity to understand the underlying mathematical equations and the software development process led me to pursue a Master's degree in Applied Mathematics.
 
 Here are some of the major projects I contributed to at ISRO:
 
@@ -32,7 +32,7 @@ I contributed towards the thermo-structural analysis of engine flow duct model a
 
 #### 2. Payload adapter design for the PSLV
 
-I was part of a design team responsible for developing a new payload adapter design for the Polar Satellite Launch Vehicle (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle. 
+I was part of a design team responsible for developing a new payload adapter design for the `Polar Satellite Launch Vehicle` (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/pla_pslv_c57.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="300" %}
@@ -45,7 +45,7 @@ I was part of a design team responsible for developing a new payload adapter des
 
 #### 3. Thermal screen development for GSLV
 
-Thermal screen, a flexible and inflatable membrane, is provided over the fore-end dome of liquid hydrogen ($LH_2$) tank of Geosynchronous Satellite Launch Vehicle (GSLV Mk3) to contain, dilute and expel Hydrogen  gas (if any due to leak) to the  atmosphere and hence to protect the electronic components in the equipment bay above the $LH_2$ tank during filling and liftoff.
+Thermal screen, a flexible and inflatable membrane, is provided over the fore-end dome of liquid hydrogen ($LH_2$) tank of `Geosynchronous Satellite Launch Vehicle` (GSLV Mk3) to contain, dilute and expel Hydrogen  gas (if any due to leak) to the  atmosphere and hence to protect the electronic components in the equipment bay above the $LH_2$ tank during filling and liftoff.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -60,7 +60,7 @@ I was involved in the design, finite element analysis, and testing of the therma
 
 #### 4. Structural analysis of reusable launch vehicle's wing 
 
-The wing leading edge of ISRO's reusable launch vehicle (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the structural analysis (using finite element analysis) and testing of the realized wing leading edge hardware. 
+The wing leading edge of ISRO's `reusable launch vehicle` (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the structural analysis (using finite element analysis) and testing of the realized wing leading edge hardware. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
