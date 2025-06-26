@@ -15,7 +15,7 @@ Here are some of the major projects I contributed to at ISRO:
 
 #### 1. Thermo-structural analysis of a DMRJ engine flow duct
 
-The dual model ramjet (DMRJ) engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory. 
+The `dual model ramjet` (DMRJ) engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory. 
 
 I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware. 
 <div class="row">
