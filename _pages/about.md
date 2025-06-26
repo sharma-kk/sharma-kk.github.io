@@ -28,8 +28,6 @@ latest_posts:
 
 With a background in `Aerospace Engineering` and a PhD in `Applied Mathematics`, I have spent the last eight years solving complex simulation problems, from modeling geophysical flows to evaluating structural loads on rockets and spacecrafts.
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Hi, my name is Kamal. I am a PhD student at the Maths department of University of Hamburg. Under the supervision of Dr. Peter Korn (from the Max Planck Institute for Meteorology), my research focuses on the use of stochastic parameterization methods to quantify the uncertainty due to unresolved small scale processes in geophysical fluid dynamics (GFD). Over the last couple of years, I have developed numerical solvers for various GFD equations, most notably, for stochastic coupled ocean atmosphere climate model.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+I hold a bachelor's degree in Aerospace engineering and have worked at the Indian space research organisation (ISRO) for four years. During my time at ISRO, i conducted structural design, analysis, and testing of different launch vehicle subsystems. I was fascinated by the software such as Ansys and Abaqus used to carry out structural analysis. Curiosity to the understand the underlying mathematical equations and the software development process led me to pursue a masters in Applied mathematics and eventually a PhD. -->
