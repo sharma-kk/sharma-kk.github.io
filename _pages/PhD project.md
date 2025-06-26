@@ -101,7 +101,7 @@ $$
 
 `Model description:` We solved the climate model equations on a rectangular domain with periodic boundary conditions in the $x$ direction and free-slip velocity conditions on the boundaries in the $y$ direction. The physical dimensions of the domain are $27237$ km (in $x$) and $3891$ km (in $y$), which, after non-dimensionalization, correspond to $\Omega = [0,7] \times [0,1]$. 
 
-| Parameters      | Grid           | 
+| Parameter      | Value           | 
 | :-------------  |:-------------  | 
 | Number of elements, $N_x \times N_y $ | $896 \times 128$ |
 | Smallest element size, $\Delta x$     | $1/128 \ (\sim 30 \ \text{km})$ | 
