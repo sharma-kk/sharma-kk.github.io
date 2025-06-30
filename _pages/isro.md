@@ -9,7 +9,7 @@ nav_order: 3
 
 After completing my Bachelor's degree in Aerospace Engineering, I joined the `Indian Space Research Organisation` (ISRO) as a Scientist/Engineer in 2014. Over the course of four years, I worked at two major ISRO centres—Vikram Sarabhai Space Centre and U. R. Rao Satellite Centre—where I was involved in the structural design and analysis of launch vehicle subsystems, as well as the dynamic testing of satellites.
 
-During my time at ISRO, I became fascinated by the capabilities of `finite element analysis` software such as ANSYS and Abaqus, which are used for structural analysis. My curiosity to understand the underlying mathematical equations and the software development process led me to pursue a Master's degree in Applied Mathematics.
+During my time at ISRO, I became fascinated by the capabilities of `Finite Element Analysis` software such as ANSYS and Abaqus, which are used for structural analysis. My curiosity to understand the underlying mathematical equations and the software development process led me to pursue a Master's degree in Applied Mathematics.
 
 Here are some of the major projects I contributed to at ISRO:
 
@@ -56,11 +56,11 @@ Thermal screen, a flexible and inflatable membrane, is provided over the fore-en
     The cryogenic upper stage of GSLV Mk3. The thermal screen is placed on top of the $LH_2$ tank of this stage. Picture credits: <a href="https://www.isro.gov.in/mission_GSAT-19_Gallery.html">ISRO</a>
 </div>
 
-I was involved in the design, finite element analysis, and testing of the thermal screen.
+I was involved in the design, Finite Element Analysis, and testing of the thermal screen.
 
 #### 4. Structural analysis of reusable launch vehicle's wing 
 
-The wing leading edge of ISRO's `reusable launch vehicle` (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the structural analysis (using finite element analysis) and testing of the realized wing leading edge hardware. 
+The wing leading edge of ISRO's `reusable launch vehicle` (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the thermo-structural analysis (using Finite Element Analysis) and testing of the realized wing-leading-edge hardware. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
