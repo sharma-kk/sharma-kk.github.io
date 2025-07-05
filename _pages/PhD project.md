@@ -9,9 +9,9 @@ related_publications: true
 nav_order: 2
 ---
 
-Processes occurring in the Earth's atmosphere and ocean exhibit a wide range of spatial (a few millimeters to thousand of kilometers) and temporal (a few seconds to several decades) scales {% cite vallisAtmosphericOceanicFluid2017 fox-kemperNotionsMotionsOceans2018 %}. In both media, small-scale motions coexist and interact with large-scale circulation.  Due to limited computational resources, however, it is practically impossible to capture all the scales in numerical simulations. The small scales which are not captured by the numerical models lead to errors in the prediction. Parameterization techniques are generally used to account for the missing effect of small scales on large scales. In our project, we explored the use of a parameterization technique known as `stochastic advection by Lie transport` (SALT).
+Processes occurring in the Earth's atmosphere and ocean exhibit a wide range of spatial (a few millimeters to thousand of kilometers) and temporal (a few seconds to several decades) scales {% cite vallisAtmosphericOceanicFluid2017 fox-kemperNotionsMotionsOceans2018 %}. In both media, small-scale motions coexist and interact with large-scale circulation. Due to limited computational resources, however, it is practically impossible to capture all the scales in numerical simulations. The small scales which are not captured by the numerical models lead to errors in the prediction. Parameterization techniques are generally used to account for the missing effect of small scales on large scales. In our project, we explored the use of a parameterization technique known as `stochastic advection by Lie transport` (SALT).
 
-In the literature, SALT has been successfully applied to numerous geophysical fluid dynamics (GFD) equations such as the 2D Euler equation {% cite cotterNumericallyModelingStochastic2019 %}, two-layer quasi-geostrophic model {% cite cotterModellingUncertaintyUsing2020 %}, and shallow water equation {% cite crisanNoiseCalibrationSPDEs2023 %}. In our project, we investigated SALT's efficacy in modeling the effect of unresolved scales on the resolved scales and quantifying the uncertainty due to unresolved scales for a `coupled ocean atmosphere climate model`. 
+In the literature, SALT has been successfully applied to numerous geophysical fluid dynamics (GFD) equations such as the 2D Euler equation {% cite cotterNumericallyModelingStochastic2019 %}, two-layer quasi-geostrophic model {% cite cotterModellingUncertaintyUsing2020 %}, and shallow water equation {% cite crisanNoiseCalibrationSPDEs2023 %}. In our project, we investigated SALT's efficacy in modeling the effect of unresolved scales on the resolved scales and quantifying the uncertainty due to unresolved scales for a `coupled ocean atmosphere climate model`.
 
 Our results demonstrate that ensemble forecasts from the stochastic climate model exhibit good reliability. Comparisons between the stochastic and deterministic model forecasts, reveal that the stochastic approach consistently outperforms the deterministic one throughout the simulation period.
 
@@ -28,12 +28,11 @@ $$
 \end{align*}
 $$
 
-where the vector variable $\mathbf{u}$ and the scale variables $\theta$ and $p$ (with superscripts for the atmosphere and ocean components) denote the velocity, potential temperature, and pressure fields, respectively {% cite crisanImplementationHasselmannsParadigm2023 %}. The atmospheric temperature is coupled to the ocean temperature through the term $\gamma (\theta^a - \theta^o)$ representing the transfer of heat from the ocean to the atmosphere. The atmosphere and ocean velocities are coupled through the term $\sigma (\mathbf{u}^o - \mathbf{u}^a_{sol})$ which models the shear stress exerted by atmospheric winds on the ocean surface. 
+where the vector variable $\mathbf{u}$ and the scale variables $\theta$ and $p$ (with superscripts for the atmosphere and ocean components) denote the velocity, potential temperature, and pressure fields, respectively {% cite crisanImplementationHasselmannsParadigm2023 %}. The atmospheric temperature is coupled to the ocean temperature through the term $\gamma (\theta^a - \theta^o)$ representing the transfer of heat from the ocean to the atmosphere. The atmosphere and ocean velocities are coupled through the term $\sigma (\mathbf{u}^o - \mathbf{u}^a_{sol})$ which models the shear stress exerted by atmospheric winds on the ocean surface.
 
-Stochastic terms (shown in green) which model the small-scales can be estimated using the satellite data {% cite holmVariationalPrinciplesStochastic2015 %}. In our work, we estimate the stochastic terms (mainly $\boldsymbol{\xi}_i$) using statistical analysis of velocity data obtained from high-resolution simulation of the deterministic model. 
+Stochastic terms (shown in green) which model the small-scales can be estimated using the satellite data {% cite holmVariationalPrinciplesStochastic2015 %}. In our work, we estimate the stochastic terms (mainly $\boldsymbol{\xi}_i$) using statistical analysis of velocity data obtained from high-resolution simulation of the deterministic model.
 
 ### Key simulations
-
 
 #### 1. An idealized deterministic atmosphere model
 
@@ -49,6 +48,7 @@ Stochastic terms (shown in green) which model the small-scales can be estimated 
 <!-- <img src="/assets/img/atmo_dom.png" alt="Schematic representation of the 2D domain for the atmosphere model" width="600"/>
 
 *Figure 1: Schematic representation of the 2D domain on which the atmosphere model is simulated. The domain is an approximation of a section in the Earth's northern hemisphere (shown in left).* -->
+
 `Model equations:`
 
 $$
@@ -58,9 +58,10 @@ $$
 \end{align*}
 $$
 
-`Discretization:` We used the Finite Element Method for spatial discretization and Crank-Nicolson scheme for temporal discretization. The model resolution i.e. the size of the small element size is $\sim 15$ km. The numerical implementation is carried out using Firedrake (an open source Python Finite Element Method package) and the visualization is done using Paraview. 
+`Discretization:` We used the Finite Element Method for spatial discretization and Crank-Nicolson scheme for temporal discretization. The model resolution i.e. the size of the small element size is $\sim 15$ km. The numerical implementation is carried out using Firedrake (an open source Python Finite Element Method package) and the visualization is done using Paraview.
 
 `Simulation results:`
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include video.liquid path="assets/video/high_res_vort_t27_to_t45.mp4" class="img-fluid rounded z-depth-1" width="700" controls=true autoplay=true %}
@@ -99,15 +100,15 @@ $$
 \end{align*}
 $$
 
-`Model description:` We solved the climate model equations on a rectangular domain with periodic boundary conditions in the $x$ direction and free-slip velocity conditions on the boundaries in the $y$ direction. The physical dimensions of the domain are $27237$ km (in $x$) and $3891$ km (in $y$), which, after non-dimensionalization, correspond to $\Omega = [0,7] \times [0,1]$. 
+`Model description:` We solved the climate model equations on a rectangular domain with periodic boundary conditions in the $x$ direction and free-slip velocity conditions on the boundaries in the $y$ direction. The physical dimensions of the domain are $27237$ km (in $x$) and $3891$ km (in $y$), which, after non-dimensionalization, correspond to $\Omega = [0,7] \times [0,1]$.
 
-| Parameter      | Value           | 
-| :-------------  |:-------------  | 
-| Number of elements, $N_x \times N_y $ | $896 \times 128$ |
-| Smallest element size, $\Delta x$     | $1/128 \ (\sim 30 \ \text{km})$ | 
-| Time-step size, $\Delta t$  | $0.010 \ (\sim 8 \ \text{min.})$ |  
-| Eddy viscosity, $\nu^a, \nu^o $ | $1/(8 \times 10^4)$ |
-| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$ | 
+| Parameter                                | Value                            |
+| :--------------------------------------- | :------------------------------- |
+| Number of elements, $N_x \times N_y $    | $896 \times 128$                 |
+| Smallest element size, $\Delta x$        | $1/128 \ (\sim 30 \ \text{km})$  |
+| Time-step size, $\Delta t$               | $0.010 \ (\sim 8 \ \text{min.})$ |
+| Eddy viscosity, $\nu^a, \nu^o $          | $1/(8 \times 10^4)$              |
+| Diffusion coefficient, $\eta^a, \eta^o $ | $1/(8 \times 10^4)$              |
 
 <div class="caption">
     Grid parameters for the atmosphere and ocean components of the climate model
@@ -148,19 +149,18 @@ My doctoral studies resulted in the following publications and conference contri
 
 ### Publications
 
-* Kamal Sharma and Peter Korn. Numerical Simulation of an idealized coupled Ocean-Atmosphere Climate Model. In *Modeling, Simulation and Optimization of Fluid Dynamic Applications*, pages 113–130. Springer, Cham, 2023. DOI: [10.1007/978-3-031-45158-4\_7](https://link.springer.com/chapter/10.1007/978-3-031-45158-4_7)
-
+- Kamal Sharma and Peter Korn. Numerical Simulation of an idealized coupled Ocean-Atmosphere Climate Model. In _Modeling, Simulation and Optimization of Fluid Dynamic Applications_, pages 113–130. Springer, Cham, 2023. DOI: [10.1007/978-3-031-45158-4_7](https://link.springer.com/chapter/10.1007/978-3-031-45158-4_7)
 
 ### Conference contributions
 
-* Workshop on Stochastic Transport in Upper Ocean Dynamics, French Research Institute for Exploitation of the Sea (IFREMER), Brest, France, `contributed talk` (2023).
+- Workshop on Stochastic Transport in Upper Ocean Dynamics, French Research Institute for Exploitation of the Sea (IFREMER), Brest, France, `contributed talk` (2023).
 
-* Conference on Mathematical and Computational Issues in the Geosciences, Society for Industrial and Applied Mathematics (SIAM), Bergen, Norway, `contributed talk` (2023).
+- Conference on Mathematical and Computational Issues in the Geosciences, Society for Industrial and Applied Mathematics (SIAM), Bergen, Norway, `contributed talk` (2023).
 
-* Conference on Computational Science and Engineering, Society for Industrial and Applied Mathematics (SIAM), Amsterdam, Netherlands, `contributed talk` (2023).
+- Conference on Computational Science and Engineering, Society for Industrial and Applied Mathematics (SIAM), Amsterdam, Netherlands, `contributed talk` (2023).
 
-* Firedrake User and Developer Workshop, University of Exeter & Imperial College London, Totnes, England, `contributed talk` (2023).
+- Firedrake User and Developer Workshop, University of Exeter & Imperial College London, Totnes, England, `contributed talk` (2023).
 
-* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, `contributed talk` (2022).
+- Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, `contributed talk` (2022).
 
-* Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, `contributed talk and poster` (2021).
+- Workshop on Modeling, Simulation & Optimization of Fluid Dynamic Applications, Groß Schwansee, Germany, `contributed talk and poster` (2021).

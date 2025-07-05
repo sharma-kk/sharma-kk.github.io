@@ -109,28 +109,15 @@
   "skills": [
     {
       "name": "Technical Skills",
-      "keywords": [
-        "High-Performance Computing",
-        "Python (NumPy, SciPy, PyTorch, Matplotlib, Jupyter)",
-        "MATLAB",
-        "Git",
-        "LaTeX"
-      ]
+      "keywords": ["High-Performance Computing", "Python (NumPy, SciPy, PyTorch, Matplotlib, Jupyter)", "MATLAB", "Git", "LaTeX"]
     },
     {
       "name": "Soft Skills",
-      "keywords": [
-        "Strong analytical and problem-solving mindset",
-        "Independent researcher",
-        "Scientific communication (written and verbal)"
-      ]
+      "keywords": ["Strong analytical and problem-solving mindset", "Independent researcher", "Scientific communication (written and verbal)"]
     },
     {
       "name": "Languages",
-      "keywords": [
-        "English – C1 (Advanced)",
-        "German – B1 (Intermediate)"
-      ]
+      "keywords": ["English – C1 (Advanced)", "German – B1 (Intermediate)"]
     }
   ],
   "awards": [

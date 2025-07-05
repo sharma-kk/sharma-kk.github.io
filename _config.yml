@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Kamal
-middle_name: 
+middle_name:
 last_name: Sharma
 contact_note: >
   You can reach me via email at <a href="mailto:{{ kamalkishorsharma123@gmail.com }}">kamalkishorsharma123@gmail.com</a>.
@@ -196,8 +196,8 @@ exclude:
   - _pages/projects.md
   - _pages/blog.md
   - _pages/publications.md
-  - _pages/teaching.md 
-  - _pages/repositories.md 
+  - _pages/teaching.md
+  - _pages/repositories.md
   - _pages/dropdown.md
   - _pages/books.md
   - _pages/profiles.md

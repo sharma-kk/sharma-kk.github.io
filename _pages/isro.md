@@ -15,9 +15,10 @@ Here are some of the major projects I contributed to at ISRO:
 
 #### 1. Thermo-structural analysis of a DMRJ engine flow duct
 
-The `dual model ramjet` (DMRJ) engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory. 
+The `dual model ramjet` (DMRJ) engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory.
 
-I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware. 
+I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/atv_config1.png" title="ATV configuration" class="img-fluid rounded z-depth-1" width="300" %}
@@ -32,7 +33,8 @@ I contributed towards the thermo-structural analysis of engine flow duct model a
 
 #### 2. Payload adapter design for the PSLV
 
-I was part of a design team responsible for developing a new payload adapter design for the `Polar Satellite Launch Vehicle` (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle. 
+I was part of a design team responsible for developing a new payload adapter design for the `Polar Satellite Launch Vehicle` (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/pla_pslv_c57.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="300" %}
@@ -45,7 +47,7 @@ I was part of a design team responsible for developing a new payload adapter des
 
 #### 3. Thermal screen development for GSLV
 
-Thermal screen, a flexible and inflatable membrane, is provided over the fore-end dome of liquid hydrogen ($LH_2$) tank of `Geosynchronous Satellite Launch Vehicle` (GSLV Mk3) to contain, dilute and expel Hydrogen  gas (if any due to leak) to the  atmosphere and hence to protect the electronic components in the equipment bay above the $LH_2$ tank during filling and liftoff.
+Thermal screen, a flexible and inflatable membrane, is provided over the fore-end dome of liquid hydrogen ($LH_2$) tank of `Geosynchronous Satellite Launch Vehicle` (GSLV Mk3) to contain, dilute and expel Hydrogen gas (if any due to leak) to the atmosphere and hence to protect the electronic components in the equipment bay above the $LH_2$ tank during filling and liftoff.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -58,9 +60,9 @@ Thermal screen, a flexible and inflatable membrane, is provided over the fore-en
 
 I was involved in the design, Finite Element Analysis, and testing of the thermal screen.
 
-#### 4. Structural analysis of reusable launch vehicle's wing 
+#### 4. Structural analysis of reusable launch vehicle's wing
 
-The wing leading edge of ISRO's `reusable launch vehicle` (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the thermo-structural analysis (using Finite Element Analysis) and testing of the realized wing-leading-edge hardware. 
+The wing leading edge of ISRO's `reusable launch vehicle` (RLV) experiences aerodynamic, thermal and inertial loads during its flight. I was involved in the structural analysis (using finite element analysis) and testing of the realized wing leading edge hardware.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
