@@ -39,7 +39,7 @@ The first experimental mission of the `Scramjet Engine` was successfully conduct
 
 #### 2. Payload adapter design for the PSLV
 
-I was part of a design team responsible for developing a new payload adapter design for the `Polar Satellite Launch Vehicle` (PSLV) capable of carrying four to six additional small satellites ($\sim$ 100 kg each) along with the primary payload ($\sim$ 1000 kg) of the vehicle.
+A payload adapter serves as the interface between the launch vehicle and satellite/payloads. In order to increase the capacity of the `Polar Satellite Launch Vehicle` (PSLV), a new payload adapter design was proposed.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -49,6 +49,19 @@ I was part of a design team responsible for developing a new payload adapter des
 <div class="caption">
     A schematic diagram showing a typical payload accommodation in PSLV. The black structure under the main satellite (shown in yellow) is the standard payload adapter. 
     Picture credits: <a href="https://www.isro.gov.in/media_isro/pdf/AdityaL1_Mission_Brochure.pdf">ISRO</a>
+</div>
+
+The aim of this project was to design a `secondary payload adapter` (SPLA) which can carry four to six additional small satellites in a single mission. SPLA is configured to position between the existing Payload Adaptor (PLA) and PS4 tank of PSLV. SPLA consists of a metallic sandwich cylinder and radial decks. The main satellite ($\sim$ 1000 kg) is placed on the PLA and the mini satellites ($\sim$ 100 kg each) are assembled on the radial decks of SPLA .
+
+I was part of the design team responsible for developing the SPLA. I carried out preliminary design checks (using hand-calculations and theoretical models) and conducted extensive FEA (`Structural and Vibrational`) to ensure that the realized hardware meets the design requirements.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/SPLA model.png" title="SPLA model" class="img-fluid rounded z-depth-1" width="300" %}
+    </div>
+</div>
+<div class="caption">
+    Configuration of the PLA and SPLA along with the satellites. Picture credits: VSSC
 </div>
 
 #### 3. Thermal screen development for GSLV
