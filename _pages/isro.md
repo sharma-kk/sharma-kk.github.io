@@ -43,7 +43,7 @@ A payload adapter serves as the interface between the launch vehicle and satelli
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/pla_pslv_c57.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="600" %}
+        {% include figure.liquid loading="eager" path="assets/img/pla_pslv_c57.png" title="Payload adapter" class="img-fluid rounded z-depth-1" width="300" %}
     </div>
 </div>
 <div class="caption">
@@ -57,7 +57,7 @@ I was part of the design team responsible for developing the SPLA. I carried out
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/SPLA model.png" title="SPLA model" class="img-fluid rounded z-depth-1" width="300" %}
+        {% include figure.liquid loading="eager" path="assets/img/SPLA model.png" title="SPLA model" class="img-fluid rounded z-depth-1" width="600" %}
     </div>
 </div>
 <div class="caption">
