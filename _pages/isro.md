@@ -15,9 +15,15 @@ Here are some of the major projects I contributed to at ISRO:
 
 #### 1. Thermo-structural analysis of a DMRJ engine flow duct
 
-The `dual model ramjet` (DMRJ) engine flow duct experiences a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory.
+Development of air-breathing propulsion technology is key to achieve a low-cost access to space. Satellites are launched into orbit by launch vehicles which carry
+oxidizer along with the fuel for combustion to produce thrust. A `Dual Mode Ramjet` (DRMJ) engine was developed by ISRO which carries only the fuel and utilizes the
+oxygen from the atmosphere to produce thrust at high Mach numbers.
 
-I contributed towards the thermo-structural analysis of engine flow duct model along with the structural qualification testing of the realized hardware.
+The aim of this project was to carry out thermo-structrual analysis of the engine flow duct of DMRJ which is subjected to a variety of loads (aerodynamics pressure and thermal loads, inertial loads, and pressure and thermal loads due to combustion) during different stages of the vehicle trajectory.
+
+I contributed towards the `Finite Element Analysis` (FEA) of DMRJ flow duct and proposed appropriate design changes to ensure the structural integrity of the hardware during different stages of the vehicle trajectory. In addition to structural analysis, I supported the hardware qualification testing of the flow duct. 
+
+The first experimental mission of the `Scramjet Engine` was successfully conducted in August 2016.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
