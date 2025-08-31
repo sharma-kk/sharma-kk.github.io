@@ -77,7 +77,7 @@ Thermal screen, a flexible and inflatable membrane, is provided over the fore-en
     The cryogenic upper stage of GSLV Mk3. The thermal screen is placed on top of the $LH_2$ tank of this stage. Picture credits: <a href="https://www.isro.gov.in/mission_GSAT-19_Gallery.html">ISRO</a>
 </div>
 
-I was involved in the design, Finite Element Analysis, and testing of the thermal screen.
+I was involved in the structural design of the thermal screen. I led the FE analysis of the thermal screen and proposed instrumentation for the hardware qualification tests. The thermal screen met its design requirements and performed nominally in the maiden development flight of GSLV Mk3.
 
 #### 4. Structural analysis of reusable launch vehicle's wing
 
