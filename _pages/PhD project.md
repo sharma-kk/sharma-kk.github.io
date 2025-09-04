@@ -35,7 +35,7 @@ Stochastic terms (shown in green) which model the small-scales can be estimated 
 
 ### Key simulations
 
-#### [https://github.com/sharma-kk/atmo_semi_periodic_SALT](1. An idealized deterministic atmosphere model)
+#### [1. An idealized deterministic atmosphere model](https://github.com/sharma-kk/atmo_semi_periodic_SALT)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -78,7 +78,7 @@ $$
 </video>
 *Video 1: Evolution of vorticity $\omega := \nabla \times \mathbf{u}$ in the high-resolution deterministic atmosphere model.* -->
 
-#### [https://github.com/sharma-kk/coupled_OA_model](2. Deterministic climate model equations)
+#### [2. Deterministic climate model equations](https://github.com/sharma-kk/coupled_OA_model)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
