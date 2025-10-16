@@ -10,13 +10,13 @@ nav_order: 2
 ---
 `Thesis title:` Development of a Structure-Preserving Idealized Stochastic Climate Model
 
-Processes occurring in the Earth's atmosphere and ocean exhibit a wide range of spatial (a few millimeters to thousand of kilometers) and temporal (a few seconds to several decades) scales {% cite vallisAtmosphericOceanicFluid2017 fox-kemperNotionsMotionsOceans2018 %}. In both media, small-scale motions coexist and interact with large-scale circulation. Due to limited computational resources, however, it is practically impossible to capture all the scales in numerical simulations. The small scales which are not captured by the numerical models lead to errors in the prediction. Parameterization techniques are generally used to account for the missing effect of small scales on large scales. In our project, we explored the use of a parameterization technique known as `stochastic advection by Lie transport` (SALT).
+`Supervisor:` Dr. Peter Korn, Max Planck Institute for Meteorology, Hamburg
 
-In the literature, SALT has been successfully applied to numerous geophysical fluid dynamics (GFD) equations such as the 2D Euler equation {% cite cotterNumericallyModelingStochastic2019 %}, two-layer quasi-geostrophic model {% cite cotterModellingUncertaintyUsing2020 %}, and shallow water equation {% cite crisanNoiseCalibrationSPDEs2023 %}. In our project, we investigated SALT's efficacy in modeling the effect of unresolved scales on the resolved scales and quantifying the uncertainty due to unresolved scales for a `coupled ocean atmosphere climate model`.
+Processes occurring in the Earth’s atmosphere and ocean exhibit a wide range of spatial (a few millimeters to thousand of kilometers) and temporal (a few seconds to several decades) scales {% cite vallisAtmosphericOceanicFluid2017 fox-kemperNotionsMotionsOceans2018 %}. In both media, small-scale motions coexist and interact with large-scale circulation. Due to limited computational resources, however, it is practically impossible to capture all spatial and temporal scales in numerical simulations. Processes that occur at scales smaller than the grid resolution of the models remain unaccounted for or unresolved. The effect of small scales on large scales is therefore not captured by these models, which can lead to errors in predictions. Parameterization techniques are generally used to account for the missing effect of small scales in numerical models. In our work, we explored the use of a parameterization technique known as `stochastic advection by Lie transport` (SALT) {% cite holmVariationalPrinciplesStochastic2015 %}.
 
-Our results demonstrate that ensemble forecasts from the stochastic climate model exhibit good reliability. Comparisons between the stochastic and deterministic model forecasts, reveal that the stochastic approach consistently outperforms the deterministic one throughout the simulation period.
+In the literature, SALT has been successfully applied to numerous geophysical fluid dynamics equations such as the 2D Euler equation {% cite cotterNumericallyModelingStochastic2019 %}, two-layer quasi-geostrophic model {% cite cotterModellingUncertaintyUsing2020 %}, and shallow water equation {% cite crisanNoiseCalibrationSPDEs2023 %}. In our project, we investigated SALT’s efficacy in modeling the effect of unresolved scales on the resolved scales and quantifying the uncertainty due to unresolved scales for an `idealized 2D climate model` {% cite crisanImplementationHasselmannsParadigm2023 %}.
 
-The `stochastic climate model equations` are
+The `climate model equations` are
 
 $$
 \begin{align*}
@@ -29,9 +29,11 @@ $$
 \end{align*}
 $$
 
-where the vector variable $\mathbf{u}$ and the scale variables $\theta$ and $p$ (with superscripts for the atmosphere and ocean components) denote the velocity, potential temperature, and pressure fields, respectively {% cite crisanImplementationHasselmannsParadigm2023 %}. The atmospheric temperature is coupled to the ocean temperature through the term $\gamma (\theta^a - \theta^o)$ representing the transfer of heat from the ocean to the atmosphere. The atmosphere and ocean velocities are coupled through the term $\sigma (\mathbf{u}^o - \mathbf{u}^a_{sol})$ which models the shear stress exerted by atmospheric winds on the ocean surface.
+where the vector variable $\mathbf{u}$ and the scalar variables $\theta$ and $p$ (with superscripts for the atmosphere and ocean components) denote the velocity, potential temperature, and pressure fields, respectively {% cite crisanImplementationHasselmannsParadigm2023 %}. The atmospheric temperature is coupled to the ocean temperature through the term $\gamma (\theta^a - \theta^o)$ representing the transfer of heat from the ocean to the atmosphere. The atmosphere and ocean velocities are coupled through the term $\sigma (\mathbf{u}^o - \mathbf{u}^a_{sol})$ which models the shear stress exerted by atmospheric winds on the ocean surface.
 
-Stochastic terms (shown in green) which model the small-scales can be estimated using the satellite data {% cite holmVariationalPrinciplesStochastic2015 %}. In our work, we estimate the stochastic terms (mainly $\boldsymbol{\xi}_i$) using statistical analysis of velocity data obtained from high-resolution simulation of the deterministic model.
+Stochastic terms (shown in green color) model the effect of unresolved transport processes on the resolved scales {% cite holmVariationalPrinciplesStochastic2015 %}. We estimate the stochastic terms using statistical analysis of velocity data obtained from high-resolution simulation of deterministic version of the climate model.
+
+Our research demonstrated that ensemble forecasts from the stochastic climate model exhibit good reliability: ensemble spread size is proportional to the root mean square error. The stochastic model solution is also able to capture the true solution for few time units. In comparison to deterministic model forecasts (obtained by perturbing the initial condition), the stochastic model exhibits bigger spreads and have better forecast accuracy.
 
 ### Key simulations
 
