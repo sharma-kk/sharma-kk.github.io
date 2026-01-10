@@ -9,15 +9,15 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-phd-project",
-          title: "PhD project",
+  },{id: "nav-doctoral-research",
+          title: "Doctoral research",
           description: "A brief look at the work I did during my PhD.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/phd-project/";
           },
-        },{id: "nav-work-experience",
-          title: "Work experience",
+        },{id: "nav-engineering-projects",
+          title: "Engineering projects",
           description: "Details about some of the projects I did at the Indian Space Research organisation.",
           section: "Navigation",
           handler: () => {
