@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /phd-project/
-title: PhD project
+title: Doctoral research
 description: A brief look at the work I did during my PhD.
 nav: true
 pretty_table: true
